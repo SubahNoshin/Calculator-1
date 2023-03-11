@@ -2,10 +2,20 @@ package branch;
 
 public class sample_branch_b {
     String name,roll;
-    sample_branch_b(String a,String b)
-    {
-        this.name=a;
-        this.roll=b;
+    int product;
+
+     sample_branch_b(String name, String roll, int product) {
+        this.name = name;
+        this.roll = roll;
+        this.product = product;
+    }
+
+    public int getProduct() {
+        return product;
+    }
+
+    public void setProduct(int product) {
+        this.product = product;
     }
 
     public String getName() {
