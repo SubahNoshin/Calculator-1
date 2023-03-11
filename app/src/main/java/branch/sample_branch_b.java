@@ -2,6 +2,7 @@ package branch;
 
 public class sample_branch_b {
     String name,roll;
+
     double income;
 
     public sample_branch_b(String name, String roll, double income) {
@@ -16,6 +17,7 @@ public class sample_branch_b {
 
     public void setIncome(double income) {
         this.income = income;
+
     }
 
     public String getName() {
