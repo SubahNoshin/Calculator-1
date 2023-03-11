@@ -2,20 +2,22 @@ package branch;
 
 public class sample_branch_b {
     String name,roll;
-    int product;
 
-     sample_branch_b(String name, String roll, int product) {
+    double income;
+
+    public sample_branch_b(String name, String roll, double income) {
         this.name = name;
         this.roll = roll;
-        this.product = product;
+        this.income = income;
     }
 
-    public int getProduct() {
-        return product;
+    public double getIncome() {
+        return income;
     }
 
-    public void setProduct(int product) {
-        this.product = product;
+    public void setIncome(double income) {
+        this.income = income;
+
     }
 
     public String getName() {
